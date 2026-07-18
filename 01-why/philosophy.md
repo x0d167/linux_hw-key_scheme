@@ -80,7 +80,7 @@ passphrase fallback never goes away — traces back to one observation:
 eventually work around, disable, or quietly stop following.**
 
 The single biggest failure mode in personal security setups isn't a
-sophisticated attack. It's the twelve-character LUKS password that got
+sophisticated attack. It's the thirty-two-character LUKS password that got
 shortened to eight after the third time someone mistyped it half-asleep,
 or the disk encryption that got disabled entirely because it made an
 already-slow laptop feel unusable.

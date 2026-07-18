@@ -15,7 +15,7 @@ Yes. Everything in `04-implementation/` works identically with one
 card; you simply don't get the loss-recovery benefits described in
 `03-architecture/recovery-design.md`, since there's no second card to
 fall back on. The passphrase/password fallback (Layer 0) still applies
-regardless of how many cards you own.
+regardless of how many cards you own. I recommend at least two.
 
 ## What if I only care about SSH, not GPG at all?
 
@@ -57,6 +57,6 @@ card needs to be touched.
 
 The underlying scheme — GPG-on-card, FIDO2, LUKS, PAM — is identical
 regardless of distro, per this document's scope note in the README. The
-*declarative configuration* of it changes meaningfully on NixOS,
+_declarative configuration_ of it changes meaningfully on NixOS,
 which is why that's planned as a separate follow-up document rather
 than folded in here.
